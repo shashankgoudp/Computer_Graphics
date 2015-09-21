@@ -1,0 +1,24 @@
+﻿Build started 9/18/2015 2:59:41 PM.
+     1>Project "F:\ThirdSem\Computer Graphics\Assignment1\c_opengl\StarterProject.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Iinc\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"bin\Win32\Debug\\" /Fd"bin\Win32\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp
+         main.cpp
+     1>f:\thirdsem\computer graphics\assignment1\c_opengl\src\main.cpp(148): warning C4305: 'initializing' : truncation from 'int' to 'float'
+     1>f:\thirdsem\computer graphics\assignment1\c_opengl\src\main.cpp(340): warning C4305: '=' : truncation from 'int' to 'float'
+     1>f:\thirdsem\computer graphics\assignment1\c_opengl\src\main.cpp(108): warning C4101: 'y' : unreferenced local variable
+     1>f:\thirdsem\computer graphics\assignment1\c_opengl\src\main.cpp(108): warning C4101: 'x' : unreferenced local variable
+     1>f:\thirdsem\computer graphics\assignment1\c_opengl\src\main.cpp(108): warning C4101: 'index' : unreferenced local variable
+     1>f:\thirdsem\computer graphics\assignment1\c_opengl\src\main.cpp(109): warning C4101: 'b' : unreferenced local variable
+     1>f:\thirdsem\computer graphics\assignment1\c_opengl\src\main.cpp(109): warning C4101: 'g' : unreferenced local variable
+     1>f:\thirdsem\computer graphics\assignment1\c_opengl\src\main.cpp(109): warning C4101: 'r' : unreferenced local variable
+     1>f:\thirdsem\computer graphics\assignment1\c_opengl\src\main.cpp(638): warning C4309: 'initializing' : truncation of constant value
+     1>f:\thirdsem\computer graphics\assignment1\c_opengl\src\main.cpp(538): warning C4101: 'Temp_mtlname' : unreferenced local variable
+     1>f:\thirdsem\computer graphics\assignment1\c_opengl\src\main.cpp(622): warning C4101: 'temp' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Win32\StarterProject_d.exe" /INCREMENTAL /NOLOGO opengl32.lib lib\Win32\glfw3.lib lib\Win32\glew32.lib lib\Win32\freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"bin\Win32\StarterProject_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\Win32\StarterProject_d.lib" /MACHINE:X86 bin\Win32\Debug\main.obj
+         StarterProject.vcxproj -> F:\ThirdSem\Computer Graphics\Assignment1\c_opengl\bin\Win32\StarterProject_d.exe
+     1>Done Building Project "F:\ThirdSem\Computer Graphics\Assignment1\c_opengl\StarterProject.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.94
